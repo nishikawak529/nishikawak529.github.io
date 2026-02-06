@@ -2,9 +2,9 @@
     "name": "ACADEMIC PAGES",
     "dockerComposeFile": "../docker-compose.yaml",
     "service": "jekyll-site",
-    "remoteEnv": {
-        "VSCODE_SERVER_DIR": "/home/vscode/.vscode-server"
-    },
+    //"remoteEnv": {
+    //    "VSCODE_SERVER_DIR": "/home/vscode/.vscode-server"
+    //},
     //"runArgs": [
     //    "--user",
     //    "1000:1000"
