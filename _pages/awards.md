@@ -9,44 +9,19 @@ author_profile: true
 
 ## Academic Awards
 
-**Best Paper Award**  
-*International Robotics Conference 2024*  
-Awarded for outstanding research contribution in the field of autonomous robotics
+* **Outstanding Master's Thesis Presentation Award**
+  東京工業大学 工学院 システム制御系 システム制御コース 優秀論文発表賞, 2025年3月
 
-**Outstanding Graduate Research Award**  
-*University Name, 2023*  
-Recognized for exceptional research contributions and academic excellence in the Robotics program
+* **Best Research Encouragement Award (Emerging Research Category)**
+  第37回自律分散システム・シンポジウム 萌芽研究部門 最優秀研究奨励賞, 2025年1月
+  "物理的相互作用を介した自己組織化による水中モジュラーロボットの走光性実現"
 
-**Graduate Research Fellowship**  
-*University Name, 2022-2024*  
-Competitive fellowship supporting PhD research in robotics and artificial intelligence
 
-**Dean's List**  
-*University Name, 2018-2020*  
-Recognized for academic excellence with GPA above 3.75 for multiple semesters
+## Research Fellowships & Grants
 
-## Scholarships & Grants
+* **JSPS Research Fellowship for Young Scientists (DC1)**
+  日本学術振興会 特別研究員 (DC1), 2025年4月 – 2028年3月
 
-**Travel Grant**  
-*IEEE Robotics and Automation Society, 2024*  
-Support for conference attendance and presentation
-
-**Research Grant**  
-*National Science Foundation, 2023*  
-Funding for research project on autonomous systems
-
-## Competitions
-
-**1st Place - Robotics Competition**  
-*Regional Robotics Challenge, 2023*  
-Led team to victory in autonomous navigation challenge
-
-**Finalist - Innovation Challenge**  
-*University Name, 2022*  
-Recognized for innovative robotics project proposal
-
-## Professional Recognition
-
-* Selected participant, Young Researchers Workshop on Robotics, 2024
-* Member of Honor Society, Engineering, 2020-Present
-* Featured in University Research Spotlight, 2023
+* **TOBITATE! Young Ambassador Program Scholarship**
+  トビタテ！留学JAPAN 新日本代表プログラム 第17期（STEAMコース）
+  (Research residency at EPFL, Switzerland)

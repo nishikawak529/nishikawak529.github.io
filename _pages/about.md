@@ -1,30 +1,27 @@
 ---
 permalink: /
-title: "Welcome to My Academic Website"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-## About Me
+## Biography
+I am a Doctoral Student at Science Tokyo (formerly Tokyo Institute of Technology), currently staying at the Bio-Robotics Laboratory (BioRob), EPFL in Switzerland as a Visiting Doctoral Student for one year (since Sept. 2025). 
 
-I am a PhD student in Robotics, passionate about advancing the field of robotics through cutting-edge research and innovation. My work focuses on developing intelligent systems that can interact with and adapt to complex, dynamic environments.
+東京科学大学（旧 東京工業大学）の博士課程に在籍し、生物模倣ロボットの動特性と制御に関する研究に従事しています。
+2025年9月より、スイス連邦工科大学ローザンヌ校 (EPFL) の Bio-Robotics Laboratory (BioRob) に Visiting Doctoral Student として1年間の予定で滞在しています。現在は
+
+## News
+* [Feb. 5, 2026] Our paper on Winfree-model-type synchronization for swimming robots was accepted in IEEE Robotics and Automation Letters (RA-L)!
+* [Feb. 5, 2026] 水中モジュラーロボットの同期制御に関する論文が IEEE RA-L に採択されました。
 
 ## Research Interests
+* Modular Robotics: Design and synchronization of swimming robotic systems.
+* Nonlinear Dynamics: Applying the Winfree model to robot locomotion.
+* Bio-inspired Robotics: Researching at BioRob, EPFL.
 
-My research interests include:
-
-* **Autonomous Systems**: Developing algorithms for autonomous navigation and decision-making in complex environments
-* **Human-Robot Interaction**: Creating intuitive interfaces and collaborative systems that enable seamless human-robot cooperation
-* **Machine Learning for Robotics**: Applying deep learning and reinforcement learning techniques to improve robot perception and control
-* **Computer Vision**: Developing visual perception systems for object recognition, tracking, and scene understanding
-* **Motion Planning**: Designing efficient algorithms for robot motion planning in cluttered and dynamic spaces
-
-## Current Research
-
-I am currently working on several research projects that explore the intersection of machine learning, computer vision, and robotics. My work aims to develop robots that can learn from experience, adapt to new situations, and work safely alongside humans in real-world applications.
-
-## Collaboration
-
-I am always interested in collaborating with researchers and industry partners on challenging problems in robotics. If you have interesting research questions or project opportunities, please feel free to reach out!
+## Education
+* Doctoral Student, Science Tokyo (Tokyo Institute of Technology)
+* Visiting Doctoral Student, EPFL BioRob (Sept. 2025 - Present)

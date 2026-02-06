@@ -11,46 +11,27 @@ redirect_from:
 
 Education
 ======
-* Ph.D. in Robotics, University Name, Expected 2027
-  * Thesis: Advanced Learning Algorithms for Autonomous Robotic Systems
-  * Advisor: Dr. Advisor Name
-* M.S. in Robotics, University Name, 2022
-  * Thesis: Vision-based Navigation for Mobile Robots
-* B.S. in Computer Science and Engineering, University Name, 2020
-  * Minor in Mathematics
+* **Ph.D. in Engineering**, Institute of Science Tokyo (formerly Tokyo Institute of Technology), Apr. 2025 – Present 
+  * Advisor: Prof. Daisuke Kurabayashi 
+* **M.S. in Engineering**, Institute of Science Tokyo (formerly Tokyo Institute of Technology), Sept. 2023 – Mar. 2025 
+  * **Completed in 1.5 years (6 months early completion)** 
+* **B.S. in Engineering**, Tokyo Institute of Technology, Apr. 2020 – Sept. 2023 
+  * **Completed in 3.5 years (6 months early completion)** 
 
 Research Experience
 ======
-* 2022 - Present: Graduate Research Assistant
-  * University Name - Robotics Lab
-  * Conducting research on autonomous systems and machine learning
-  * Developing algorithms for robot perception and control
-  * Supervisor: Dr. Advisor Name
+* **JSPS Research Fellow (DC1)**, Apr. 2025 – Present 
+  * Japan Society for the Promotion of Science (JSPS) 
+* **Visiting Researcher**, Sept. 2025 – Present
+  * BioRobotics Laboratory (BioRob), EPFL, Switzerland 
+  * Supported by TOBITATE! Young Ambassador Program 
 
-* Summer 2023: Research Intern
-  * Robotics Research Company
-  * Worked on multi-robot coordination and planning
-  * Implemented deep learning models for object detection and tracking
-  * Mentor: Dr. Industry Mentor
-
-* 2020 - 2022: Graduate Research Assistant
-  * University Name - Computer Vision Lab
-  * Developed vision-based SLAM algorithms for mobile robots
-  * Published research in top-tier robotics conferences
-  * Supervisor: Dr. Advisor Name
-
-Skills
+Technical Skills
 ======
-* Programming Languages
-  * Python, C++, MATLAB, ROS
-  * PyTorch, TensorFlow, OpenCV
-* Robotics Platforms
-  * ROS/ROS2, Gazebo
-  * Mobile robots, Manipulators
-* Research Areas
-  * Machine Learning, Computer Vision
-  * Motion Planning, SLAM
-  * Reinforcement Learning
+* **Nonlinear Systems**: Expertise in phase oscillators and phase reduction theory 
+* **Robotics**: Hardware design, PCB fabrication, and autonomous robot programming 
+* **Programming**: Python, C++, MATLAB, ROS 
+* **Languages**: English (TOEIC 905) 
 
 Publications
 ======
@@ -60,13 +41,21 @@ Publications
 
 Awards
 ======
-* Best Paper Award, International Robotics Conference, 2024
-* Outstanding Graduate Research Award, University Name, 2023
-* Graduate Fellowship, University Name, 2022-2024
-* Dean's List, University Name, 2018-2020
-  
-Service and Leadership
+* **Outstanding Master's Thesis Presentation Award**, Institute of Science Tokyo, Mar. 2025
+* **Best Research Encouragement Award (Emerging Research Category)**, SSS 2025, Jan. 2025
+* **TOBITATE! Young Ambassador Program Scholarship**, MEXT, 2025 
+* **JSPS Research Fellowship (DC1)**, 2025 – 2028 
+
+Talks
 ======
-* Reviewer for major robotics conferences (ICRA, IROS, RSS)
-* Member of IEEE Robotics and Automation Society
-* Graduate student representative, Robotics Department
+<ul>
+  {% for post in site.talks reversed %}
+    <li>
+      <strong>{{ post.title }}</strong><br />
+      <span style="font-size: 0.85em; color: #5a5a5a;">
+        {% if post.type %}{{ post.type }}, {% endif %}
+        <i>{{ post.venue }}</i>, {{ post.location }}, {{ post.date | date: "%b %Y" }}.
+      </span>
+    </li>
+  {% endfor %}
+</ul>

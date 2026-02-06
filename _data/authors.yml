@@ -1,18 +1,13 @@
-# Authors
+# _data/authors.yml
 
-Name Name:
-  name        : "Name Name"
-  uri         : "https://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
-
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+Kohei Nishikawa:
+  name: "Kohei Nishikawa (西川 浩平)"
+  bio: "PhD Student at Science Tokyo | Visiting Doctoral Student at EPFL BioRob"
+  avatar: "profile.png" # 後で images/profile.png に写真を置けば反映されます
+  location: "Lausanne, Switzerland / Tokyo, Japan"
+  employer: "EPFL (Visiting) / Science Tokyo"
+  uri: "https://nishikawak529.github.io"
+  email: "nishikawa.k@irs.sc.e.titech.ac.jp" # 必要に応じて変更してください
+  github: "nishikawak529"
+  # googlescholar: "" # まだ無いのでコメントアウトまたは空欄
+  # researchmap: "" # 後で追加

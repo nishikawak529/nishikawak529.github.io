@@ -9,11 +9,12 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Robotics PhD Student"
+title                    : "Kohei Nishikawa"
 title_separator          : "-"
-name                     : &name "Robotics PhD Student"
-description              : &description "Personal academic website of a PhD student in Robotics"
-url                      : https://nishikawak529.github.io
+name                     : &name "Kohei Nishikawa"
+description              : &description "Personal academic website of Kohei Nishikawa"
+url                      : "http://localhost:4000"
+#url                      : https://nishikawak529.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "nishikawak529/nishikawak529.github.io"
 
@@ -23,18 +24,18 @@ repository               : "nishikawak529/nishikawak529.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Robotics PhD Student"
+  name             : "Kohei Nishikawa"
   pronouns         : # example: "she/her"  
   bio              : "PhD Student in Robotics"
   location         : "University"
   employer         : "Department of Robotics"
   uri              : # URL
-  email            : "your.email@university.edu" 
+  email            : "nishikawa.k@irs.sc.e.titech.ac.jp" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_ID_HERE" # Replace YOUR_ID_HERE with your Google Scholar ID
+  #googlescholar    : "https://scholar.google.com/citations?user=YOUR_ID_HERE" # Replace YOUR_ID_HERE with your Google Scholar ID
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : # "https://orcid.org/YOUR_ORCID"

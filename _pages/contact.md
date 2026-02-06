@@ -7,33 +7,26 @@ author_profile: true
 
 {% include base_path %}
 
-I am always interested in discussing research collaborations, potential projects, or academic opportunities. Feel free to reach out to me through any of the following channels:
+I am always interested in discussing research collaborations, potential projects, or academic opportunities. Feel free to reach out to me through the following channels:
 
 ## Email
-**Academic Email:** your.email@university.edu
+* **Primary (Tokyo Tech / Science Tokyo):** [nishikawa.k.al@m.titech.ac.jp](mailto:nishikawa.k.al@m.titech.ac.jp) 
 
-## Office
-**Department of Robotics**  
-University Name  
-Building Name, Room XXX  
-City, State ZIP Code
-
-## Office Hours
-By appointment - please email me to schedule a meeting
+## Current Office
+**BioRobotics Laboratory (BioRob)**   
+EPFL - École polytechnique fédérale de Lausanne  
+Station 14, CH-1015 Lausanne, Switzerland   
+(Visiting Researcher supported by TOBITATE! Young Ambassador Program)
 
 ## Research Group
-For more information about our research group and ongoing projects, please visit our [lab website](https://yourlab.university.edu).
+* **Kurabayashi Lab (Science Tokyo):** [http://www.irs.sc.e.titech.ac.jp/](http://www.irs.sc.e.titech.ac.jp/)
+* **BioRobotics Laboratory (EPFL):** [https://www.epfl.ch/labs/biorob/](https://www.epfl.ch/labs/biorob/) 
 
-## Social Media & Professional Networks
-You can also find me on:
-* GitHub (see sidebar for link)
-* Google Scholar (see sidebar for link)
-* LinkedIn (see sidebar for link)
+## Professional Networks
+* **Researchmap (Japanese):** [Coming Soon]
+* **ORCID:** [https://orcid.org/0000-0002-9099-6926](https://orcid.org/0000-0002-9099-6926)
 
-## Prospective Students
-If you are interested in working with me as a prospective PhD student, postdoctoral researcher, or visiting scholar, please send me an email with:
-* Your CV
-* A brief description of your research interests
-* Why you would like to work with me
+---
 
-I will do my best to respond to all inquiries, but please understand that I may not be able to respond to every message due to time constraints.
+### To Prospective Students & Collaborators
+If you are interested in discussing research topics related to self-organizing modular robots or decentralized control, please feel free to send me an email with your CV or research interests.
