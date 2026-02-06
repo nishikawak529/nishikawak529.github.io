@@ -1,10 +1,12 @@
-# Base image: Ruby with necessary dependencies for Jekyll
-FROM ruby:3.2
+# BEFORE: FROM ruby:3.2 (これは現在 trixie ベース)
+# AFTER: 安定した Debian 11/12 ベースの Ruby イメージを指定
+FROM ruby:3.2-slim-bullseye
 
-# Install dependencies
+# Slimイメージにする場合は git も追加しておくと便利です
 RUN apt-get update && apt-get install -y \
     build-essential \
     nodejs \
+    git \
     && rm -rf /var/lib/apt/lists/*
 
 
