@@ -13,8 +13,8 @@ title                    : "Kohei Nishikawa"
 title_separator          : "-"
 name                     : &name "Kohei Nishikawa"
 description              : &description "Personal academic website of Kohei Nishikawa"
-url                      : "http://localhost:4000"
-#url                      : https://nishikawak529.github.io
+#url                      : "http://localhost:4000"
+url                      : https://nishikawak529.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "nishikawak529/nishikawak529.github.io"
 
