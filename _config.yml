@@ -27,8 +27,8 @@ author:
   name             : "Kohei Nishikawa"
   pronouns         : # example: "she/her"  
   bio              : "PhD Student in Robotics"
-  location         : "University"
-  employer         : "Department of Robotics"
+  location         : "Institute of Science Tokyo / EPFL BioRob"
+  employer         : "Department of Engineering"
   uri              : # URL
   email            : "nishikawa.k@irs.sc.e.titech.ac.jp" 
 
@@ -51,13 +51,13 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "your-github-username" # Replace with your actual GitHub username
+  github           : "nishikawak529" # Replace with your actual GitHub username
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : #"bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -66,7 +66,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : kohei-nishikawa-60711b313 # Username - Update with your LinkedIn username
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username

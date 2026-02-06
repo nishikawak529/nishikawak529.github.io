@@ -1,7 +1,7 @@
 # _data/authors.yml
 
 Kohei Nishikawa:
-  name: "Kohei Nishikawa (西川 浩平)"
+  name: "Kohei Nishikawa (西川 航平)"
   bio: "PhD Student at Science Tokyo | Visiting Doctoral Student at EPFL BioRob"
   avatar: "profile.png" # 後で images/profile.png に写真を置けば反映されます
   location: "Lausanne, Switzerland / Tokyo, Japan"
