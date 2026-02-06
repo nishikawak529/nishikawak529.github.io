@@ -11,54 +11,62 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D. in Robotics, University Name, Expected 2027
+  * Thesis: Advanced Learning Algorithms for Autonomous Robotic Systems
+  * Advisor: Dr. Advisor Name
+* M.S. in Robotics, University Name, 2022
+  * Thesis: Vision-based Navigation for Mobile Robots
+* B.S. in Computer Science and Engineering, University Name, 2020
+  * Minor in Mathematics
 
-Work experience
+Research Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* 2022 - Present: Graduate Research Assistant
+  * University Name - Robotics Lab
+  * Conducting research on autonomous systems and machine learning
+  * Developing algorithms for robot perception and control
+  * Supervisor: Dr. Advisor Name
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Summer 2023: Research Intern
+  * Robotics Research Company
+  * Worked on multi-robot coordination and planning
+  * Implemented deep learning models for object detection and tracking
+  * Mentor: Dr. Industry Mentor
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
+* 2020 - 2022: Graduate Research Assistant
+  * University Name - Computer Vision Lab
+  * Developed vision-based SLAM algorithms for mobile robots
+  * Published research in top-tier robotics conferences
+  * Supervisor: Dr. Advisor Name
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming Languages
+  * Python, C++, MATLAB, ROS
+  * PyTorch, TensorFlow, OpenCV
+* Robotics Platforms
+  * ROS/ROS2, Gazebo
+  * Mobile robots, Manipulators
+* Research Areas
+  * Machine Learning, Computer Vision
+  * Motion Planning, SLAM
+  * Reinforcement Learning
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
+
+Awards
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+* Best Paper Award, International Robotics Conference, 2024
+* Outstanding Graduate Research Award, University Name, 2023
+* Graduate Fellowship, University Name, 2022-2024
+* Dean's List, University Name, 2018-2020
   
-Teaching
+Service and Leadership
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* Reviewer for major robotics conferences (ICRA, IROS, RSS)
+* Member of IEEE Robotics and Automation Society
+* Graduate student representative, Robotics Department
