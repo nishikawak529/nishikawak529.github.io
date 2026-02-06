@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Robotics, University Name, Expected 2026
+* Ph.D. in Robotics, University Name, Expected 2027
   * Thesis: Advanced Learning Algorithms for Autonomous Robotic Systems
   * Advisor: Dr. Advisor Name
 * M.S. in Robotics, University Name, 2022
