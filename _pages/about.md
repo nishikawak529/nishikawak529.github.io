@@ -11,7 +11,7 @@ redirect_from:
 I am a Doctoral Student at Science Tokyo (formerly Tokyo Institute of Technology), currently staying at the Bio-Robotics Laboratory (BioRob), EPFL in Switzerland as a Visiting Doctoral Student for one year (since Sept. 2025). 
 
 東京科学大学（旧 東京工業大学）の博士課程に在籍し、生物模倣ロボットの動特性と制御に関する研究に従事しています。
-2025年9月より、スイス連邦工科大学ローザンヌ校 (EPFL) の Bio-Robotics Laboratory (BioRob) に Visiting Doctoral Student として1年間の予定で滞在しています。現在は
+2025年9月より、スイス連邦工科大学ローザンヌ校 (EPFL) の Bio-Robotics Laboratory (BioRob) に Visiting Doctoral Student として1年間の予定で滞在しています。
 
 ## News
 * [Feb. 5, 2026] Our paper on Winfree-model-type synchronization for swimming robots was accepted in IEEE Robotics and Automation Letters (RA-L)!
