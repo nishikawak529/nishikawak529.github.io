@@ -4,6 +4,12 @@ services:
     build: .
     volumes: [ .:/usr/src/app ]
     ports: [ 4000:4000 ]
-    user: 1000:1000
-    environment: [ JEKYLL_ENV=docker ]
+    environment:
+      - JEKYLL_ENV=docker
+      - SASS_PATH=/usr/src/app/_sass
+    # メモリ不足（137）対策として制限を明示的に広げる
+    deploy:
+      resources:
+        limits:
+          memory: 4G
     command: jekyll serve -H 0.0.0.0 --force_polling --livereload --config _config.yml

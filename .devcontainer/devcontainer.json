@@ -2,13 +2,11 @@
     "name": "ACADEMIC PAGES",
     "dockerComposeFile": "../docker-compose.yaml",
     "service": "jekyll-site",
-    // 以下の3行を追加
     "containerEnv": {
         "DISPLAY": "",
         "WAYLAND_DISPLAY": ""
     },
-    "features": {
-        // もし desktop-gui 系の feature があれば false にする
-    },
-    // ...残りの設定
+    "workspaceFolder": "/usr/src/app",
+    "remoteUser": "vscode",
+    "forwardPorts": [4000]
 }

@@ -27,7 +27,7 @@ author:
   name             : "Kohei Nishikawa"
   pronouns         : # example: "she/her"  
   bio              : "PhD Student in Robotics"
-  location         : "Institute of Science Tokyo / EPFL BioRob"
+  location         : "Science Tokyo / EPFL BioRob"
   employer         : "Department of Engineering"
   uri              : # URL
   email            : "nishikawa.k@irs.sc.e.titech.ac.jp" 
@@ -359,3 +359,6 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+
+force_polling: true
