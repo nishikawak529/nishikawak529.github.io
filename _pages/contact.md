@@ -10,7 +10,7 @@ author_profile: true
 I am always interested in discussing research collaborations, potential projects, or academic opportunities. Feel free to reach out to me through the following channels:
 
 ## Email
-* **Primary (Tokyo Tech / Science Tokyo):** [nishikawa.k.al@m.titech.ac.jp](mailto:nishikawa.k.al@m.titech.ac.jp) 
+* **Primary (Tokyo Tech / Science Tokyo):** [nishikawa.k@irs.sc.e.titech.ac.jp](mailto:nishikawa.k@irs.sc.e.titech.ac.jp) 
 
 ## Current Office
 **BioRobotics Laboratory (BioRob)**   
