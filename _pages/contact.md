@@ -23,7 +23,7 @@ Station 14, CH-1015 Lausanne, Switzerland
 * **BioRobotics Laboratory (EPFL):** [https://www.epfl.ch/labs/biorob/](https://www.epfl.ch/labs/biorob/) 
 
 ## Professional Networks
-* **Researchmap (Japanese):** [Coming Soon]
+* **Researchmap (Japanese):** [https://researchmap.jp/nishikawak529](https://researchmap.jp/nishikawak529)
 * **ORCID:** [https://orcid.org/0000-0002-9099-6926](https://orcid.org/0000-0002-9099-6926)
 
 ---
