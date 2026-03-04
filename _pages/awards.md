@@ -10,7 +10,7 @@ author_profile: true
 ## Academic Awards
 
 * **Young Author's Fellow Award**
-  日本機械学会 ロボティクス・メカトロニクス部門 若手優秀フェロー賞候補, 2026年3月
+  日本機械学会 ロボティクス・メカトロニクス部門 若手優秀講演フェロー賞候補, 2026年3月
   "Winfreeモデル型制御による分散ロボットシステムの自己組織化" (ROBOMECH2025, 1A1-K04)
 
 * **Outstanding Master's Thesis Presentation Award**
