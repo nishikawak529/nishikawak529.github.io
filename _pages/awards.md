@@ -10,8 +10,8 @@ author_profile: true
 ## Academic Awards
 
 * **Young Author's Fellow Award**
-  日本機械学会 ロボティクス・メカトロニクス部門 若手優秀フェロー賞候補, 2026年3月
-  "Winfree-Model-Type Synchronization Control for Swimming Modular Robot through Physical Interaction" (ROBOMECH2025)
+  日本機械学会 ロボティクス・メカトロニクス部門 若手優秀フェロー賞, 2026年3月
+  "Winfreeモデル型制御による分散ロボットシステムの自己組織化" (ROBOMECH2025, 1A1-K04)
 
 * **Outstanding Master's Thesis Presentation Award**
   東京工業大学 工学院 システム制御系 システム制御コース 優秀論文発表賞, 2025年3月
