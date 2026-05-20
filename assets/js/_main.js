@@ -47,6 +47,32 @@ var toggleTheme = () => {
   setTheme(new_theme);
 };
 
+// Determine the language setting, which can be "en" or "ja". Default is "en".
+let determineLanguageSetting = () => {
+  const languageSetting = localStorage.getItem("language");
+  return (languageSetting === "ja") ? "ja" : "en";
+};
+
+// Apply language visibility and toggle label.
+let setLanguage = (language) => {
+  const useLanguage = (language === "ja") ? "ja" : "en";
+  $("html").attr("lang", useLanguage);
+  $("[data-lang]").each(function () {
+    const elemLang = $(this).attr("data-lang");
+    $(this).toggle(elemLang === useLanguage);
+  });
+  const label = useLanguage === "ja" ? "日本語" : "English";
+  $("#language-toggle-label").text(label);
+};
+
+// Toggle the language manually.
+var toggleLanguage = () => {
+  const currentLanguage = determineLanguageSetting();
+  const newLanguage = currentLanguage === "ja" ? "en" : "ja";
+  localStorage.setItem("language", newLanguage);
+  setLanguage(newLanguage);
+};
+
 /* ==========================================================================
    Plotly integration script so that Markdown codeblocks will be rendered
    ========================================================================== */
@@ -92,6 +118,7 @@ $(document).ready(function () {
 
   // If the user hasn't chosen a theme, follow the OS preference
   setTheme();
+  setLanguage(determineLanguageSetting());
   window.matchMedia('(prefers-color-scheme: dark)')
         .addEventListener("change", (e) => {
           if (!localStorage.getItem("theme")) {
@@ -101,6 +128,7 @@ $(document).ready(function () {
 
   // Enable the theme toggle
   $('#theme-toggle').on('click', toggleTheme);
+  $('#language-toggle').on('click', toggleLanguage);
 
   // Enable the sticky footer
   var bumpIt = function () {

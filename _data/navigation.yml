@@ -9,16 +9,21 @@
 
 main:
   - title: "Publications"
+    title_ja: "論文"
     url: /publications/
     
   - title: "Talks"
+    title_ja: "発表"
     url: /talks/
     
   - title: "Education"
+    title_ja: "学歴"
     url: /cv/
     
   - title: "Awards"
+    title_ja: "受賞"
     url: /awards/
     
   - title: "Contact"
+    title_ja: "連絡先"
     url: /contact/
