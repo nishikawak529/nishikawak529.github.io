@@ -41,7 +41,7 @@
     {% if post.collection == 'teaching' %}
       <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
     {% elsif post.collection == 'publications' %}
-      <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+      <p><span data-lang="en">Published in</span><span data-lang="ja">掲載誌</span> <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
     {% elsif post.date %}
       <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
     {% endif %}
@@ -55,13 +55,13 @@
     {% comment %} 一覧ページからは Citation のテキストを消し、リンクボタンだけを残す設定 {% endcomment %}
     <p>
       {% if post.paperurl %}
-        <a href="{{ post.paperurl }}" class="btn btn--info" role="button">Download Paper</a>
+        <a href="{{ post.paperurl }}" class="btn btn--info" role="button"><span data-lang="en">Download Paper</span><span data-lang="ja">論文リンク</span></a>
       {% endif %}
       {% if post.slidesurl %}
-        <a href="{{ post.slidesurl }}" class="btn btn--info" role="button">Download Slides</a>
+        <a href="{{ post.slidesurl }}" class="btn btn--info" role="button"><span data-lang="en">Download Slides</span><span data-lang="ja">スライド</span></a>
       {% endif %}
       {% if post.bibtexurl %}
-        <a href="{{ post.bibtexurl }}" class="btn btn--info" role="button">Download Bibtex</a>
+        <a href="{{ post.bibtexurl }}" class="btn btn--info" role="button"><span data-lang="en">Download Bibtex</span><span data-lang="ja">BibTeX</span></a>
       {% endif %}
     </p>
 
