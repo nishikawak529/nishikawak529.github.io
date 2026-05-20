@@ -8,14 +8,16 @@
 var $nav = $('#site-nav');
 var $btn = $('#site-nav button');
 var $vlinks = $('#site-nav .visible-links');
-var $vlinks_persist_tail = $vlinks.children("*.persist.tail");
+var $controls = $('#site-nav .greedy-nav__controls');
 var $hlinks = $('#site-nav .hidden-links');
 
 var breaks = [];
 
 function updateNav() {
 
-  var availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
+  var controlsWidth = $controls.outerWidth(true) || 0;
+  var buttonWidth = $btn.hasClass('hidden') ? 0 : $btn.outerWidth(true) + 30;
+  var availableSpace = $nav.width() - controlsWidth - buttonWidth;
 
   // The visible list is overflowing the nav
   if ($vlinks.width() > availableSpace) {
@@ -27,7 +29,9 @@ function updateNav() {
       // Move item to the hidden list
       $vlinks.children("*:not(.persist)").last().prependTo($hlinks);
 
-      availableSpace = $btn.hasClass("hidden") ? $nav.width() : $nav.width() - $btn.width() - 30;
+      controlsWidth = $controls.outerWidth(true) || 0;
+      buttonWidth = $btn.hasClass('hidden') ? 0 : $btn.outerWidth(true) + 30;
+      availableSpace = $nav.width() - controlsWidth - buttonWidth;
 
       // Show the dropdown btn
       $btn.removeClass("hidden");
@@ -39,11 +43,7 @@ function updateNav() {
     // There is space for another item in the nav
     while (breaks.length > 0 && availableSpace > breaks[breaks.length - 1]) {
       // Move the item to the visible list
-      if ($vlinks_persist_tail.children().length > 0) {
-        $hlinks.children().first().insertBefore($vlinks_persist_tail);
-      } else {
-        $hlinks.children().first().appendTo($vlinks);
-      }
+      $hlinks.children().first().appendTo($vlinks);
       breaks.pop();
     }
 

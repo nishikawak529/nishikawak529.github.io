@@ -176,6 +176,7 @@
   position: relative;
   min-width: 250px;
   background: var(--global-bg-color);
+  --nav-controls-width: 7rem;
 
   a {
     display: block;
@@ -192,7 +193,7 @@
   button {
     position: absolute;
     height: 2.5rem;
-    right: 0;
+    right: calc(var(--nav-controls-width) + 0.25rem);
     padding: 0 0.5rem;
     border: 0;
     outline: none;
@@ -225,15 +226,6 @@
       }
     }
 
-    #theme-toggle {
-      a {
-        width: 25px;
-        display: flex;
-        justify-content: center;
-        cursor: pointer;
-      }
-    }
-
     a {
       position: relative;
 
@@ -258,6 +250,37 @@
                 transform: scaleX(1); /* reveal*/
       }
     }
+  }
+
+  .greedy-nav__controls {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: var(--nav-controls-width);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.25rem;
+    z-index: 101;
+
+    a {
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+  }
+
+  #language-toggle {
+    width: 5.5ch;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  #theme-toggle {
+    width: 1.75rem;
   }
 
   .hidden-links {

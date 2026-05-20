@@ -61,7 +61,7 @@ let setLanguage = (language) => {
     const elemLang = $(this).attr("data-lang");
     $(this).toggle(elemLang === useLanguage);
   });
-  const label = useLanguage === "ja" ? "日本語" : "English";
+  const label = useLanguage === "ja" ? "English" : "日本語";
   $("#language-toggle-label").text(label);
 };
 
