@@ -1,6 +1,6 @@
 # BEFORE: FROM ruby:3.2 (これは現在 trixie ベース)
 # AFTER: 安定した Debian 11/12 ベースの Ruby イメージを指定
-FROM ruby:3.2-slim-bullseye
+FROM ruby:3.2-slim-bookworm
 
 # Slimイメージにする場合は git も追加しておくと便利です
 RUN apt-get update && apt-get install -y \
