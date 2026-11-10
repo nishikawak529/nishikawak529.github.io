@@ -11,8 +11,8 @@ author_profile: true
 <h2 data-lang="ja">学術表彰</h2>
 
 <ul>
-  <li data-lang="en"><strong>Young Author's Fellow Award Candidate</strong><br>JSME Robotics and Mechatronics Division, March 2026<br>"Winfreeモデル型制御による分散ロボットシステムの自己組織化" (ROBOMECH2025, 1A1-K04)</li>
-  <li data-lang="ja"><strong>若手優秀講演フェロー賞候補</strong><br>日本機械学会 ロボティクス・メカトロニクス部門, 2026年3月<br>"Winfreeモデル型制御による分散ロボットシステムの自己組織化" (ROBOMECH2025, 1A1-K04)</li>
+  <li data-lang="en"><strong>JSME Young Excellent Presentation Fellow Award</strong> (日本機械学会若手優秀講演フェロー賞)<br>Japan Society of Mechanical Engineers, award ceremony at ROBOMECH 2026 on June 30, 2026<br>"Winfreeモデル型制御による分散ロボットシステムの自己組織化" (ROBOMECH 2025, 1A1-K04)</li>
+  <li data-lang="ja"><strong>日本機械学会若手優秀講演フェロー賞</strong><br>日本機械学会、ROBOMECH 2026での授賞式：2026年6月30日<br>「Winfreeモデル型制御による分散ロボットシステムの自己組織化」(ROBOMECH 2025, 1A1-K04)</li>
   <li data-lang="en"><strong>Outstanding Master's Thesis Presentation Award</strong><br>School of Engineering, Tokyo Institute of Technology, March 2025</li>
   <li data-lang="ja"><strong>優秀論文発表賞</strong><br>東京工業大学 工学院 システム制御系 システム制御コース, 2025年3月</li>
   <li data-lang="en"><strong>Best Research Encouragement Award (Emerging Research Category)</strong><br>37th Autonomous Decentralized Systems Symposium, January 2025<br>"物理的相互作用を介した自己組織化による水中モジュラーロボットの走光性実現"</li>

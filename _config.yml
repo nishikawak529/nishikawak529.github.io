@@ -27,8 +27,11 @@ author:
   name             : "Kohei Nishikawa"
   pronouns         : # example: "she/her"  
   bio              : "PhD Student"
-  location         : "Science Tokyo / EPFL BioRob"
-  employer         : "Department of Engineering"
+  bio_ja           : "博士課程学生"
+  location         : "Institute of Science Tokyo"
+  location_ja      : "東京科学大学"
+  employer         : "Kurabayashi Laboratory"
+  employer_ja      : "倉林研究室"
   uri              : # URL
   email            : "nishikawa.k@irs.sc.eng.isct.ac.jp" 
 
@@ -87,9 +90,11 @@ publication_category:
   books:
     title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'International Journal'
+    title_ja: 'International Journal（国際学術誌）'
   conferences:
-    title: 'Conference Papers'
+    title: 'International Conference'
+    title_ja: 'International Conference（国際会議）'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews

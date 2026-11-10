@@ -1,0 +1,17 @@
+<div class="publication-bibliography">
+{% assign heading = include.heading | default: "h2" %}
+{% assign publications = site.publications | sort: "date" | reverse %}
+{% for category in site.publication_category %}
+  {% assign papers = publications | where: "category", category[0] %}
+  {% if papers.size > 0 %}
+    <{{ heading }} class="publication-category">
+      {% if category[1].title_ja %}<span data-lang="en">{{ category[1].title }}</span><span data-lang="ja">{{ category[1].title_ja }}</span>{% else %}{{ category[1].title }}{% endif %}
+    </{{ heading }}>
+    <ol class="publication-list">
+      {% for paper in papers %}
+        <li>{% include publication-citation.html paper=paper link_title=true %}</li>
+      {% endfor %}
+    </ol>
+  {% endif %}
+{% endfor %}
+</div>

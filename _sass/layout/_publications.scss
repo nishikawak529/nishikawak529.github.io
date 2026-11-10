@@ -1,0 +1,23 @@
+/* Shared bibliography on Publications, CV, and publication detail pages. */
+.publication-list {
+  padding-left: 1.6em;
+  font-size: 1em;
+  line-height: 1.65;
+
+  > li {
+    margin-bottom: 1.25em;
+    padding-left: 0.25em;
+  }
+}
+
+.publication-citation,
+.publication-conference,
+.publication-links {
+  overflow-wrap: anywhere;
+}
+
+.publication-conference,
+.publication-links {
+  display: block;
+  margin-top: 0.25em;
+}

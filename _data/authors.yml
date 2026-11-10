@@ -2,12 +2,15 @@
 
 Kohei Nishikawa:
   name: "Kohei Nishikawa (西川 航平)"
-  bio: "PhD Student at Science Tokyo | Visiting Doctoral Student at EPFL BioRob"
+  bio: "PhD Student"
+  bio_ja: "博士課程学生"
   avatar: "profile.png" # 後で images/profile.png に写真を置けば反映されます
-  location: "Lausanne, Switzerland / Tokyo, Japan"
-  employer: "EPFL (Visiting) / Science Tokyo"
+  location: "Institute of Science Tokyo"
+  location_ja: "東京科学大学"
+  employer: "Kurabayashi Laboratory"
+  employer_ja: "倉林研究室"
   uri: "https://nishikawak529.github.io"
-  email: "nishikawa.k@irs.sc.e.titech.ac.jp" # 必要に応じて変更してください
+  email: "nishikawa.k@irs.sc.eng.isct.ac.jp"
   github: "nishikawak529"
   # googlescholar: "" # まだ無いのでコメントアウトまたは空欄
   # researchmap: "" # 後で追加

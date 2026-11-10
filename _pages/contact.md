@@ -12,20 +12,27 @@ author_profile: true
 
 <h2 data-lang="en">Email</h2>
 <h2 data-lang="ja">メール</h2>
-* **Primary (Tokyo Tech / Science Tokyo):** [nishikawa.k@irs.sc.e.titech.ac.jp](mailto:nishikawa.k@irs.sc.e.titech.ac.jp) 
+<p data-lang="en"><strong>Institute of Science Tokyo:</strong> <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
+<p data-lang="ja"><strong>東京科学大学：</strong> <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
 
-<h2 data-lang="en">Current Office</h2>
+<h2 data-lang="en">Current Affiliation</h2>
 <h2 data-lang="ja">現在の所属先</h2>
-**BioRobotics Laboratory (BioRob)**   
-EPFL - École polytechnique fédérale de Lausanne  
-Station 14, CH-1015 Lausanne, Switzerland   
-<span data-lang="en">(Visiting Researcher supported by TOBITATE! Young Ambassador Program)</span>
-<span data-lang="ja">（トビタテ！留学JAPANの支援による訪問研究）</span>
+<p data-lang="en"><strong>Institute of Science Tokyo</strong><br>Kurabayashi Laboratory<br>Doctoral Student in Engineering</p>
+<p data-lang="ja"><strong>東京科学大学</strong><br>倉林研究室<br>博士課程</p>
+
+<h2 data-lang="en">Past Research Stay</h2>
+<h2 data-lang="ja">過去の研究滞在</h2>
+<p data-lang="en">Visiting Doctoral Student, Biorobotics Laboratory (BioRob), EPFL, Switzerland, September 2025 – September 30, 2026.<br>Supported by the TOBITATE! Young Ambassador Program.</p>
+<p data-lang="ja">スイス連邦工科大学ローザンヌ校（EPFL）Biorobotics Laboratory（BioRob）に Visiting Doctoral Student として滞在（2025年9月 – 2026年9月30日）。<br>トビタテ！留学JAPANの支援による研究滞在。</p>
 
 <h2 data-lang="en">Research Group</h2>
 <h2 data-lang="ja">研究室</h2>
-* **Kurabayashi Lab (Science Tokyo):** [http://www.irs.sc.e.titech.ac.jp/](http://www.irs.sc.e.titech.ac.jp/)
-* **BioRobotics Laboratory (EPFL):** [https://www.epfl.ch/labs/biorob/](https://www.epfl.ch/labs/biorob/) 
+<ul>
+  <li data-lang="en"><strong>Kurabayashi Laboratory (Institute of Science Tokyo):</strong> <a href="http://www.irs.sc.e.titech.ac.jp/">Laboratory website</a></li>
+  <li data-lang="ja"><strong>倉林研究室（東京科学大学）：</strong> <a href="http://www.irs.sc.e.titech.ac.jp/">研究室ウェブサイト</a></li>
+  <li data-lang="en"><strong>Biorobotics Laboratory (EPFL, host of my past research stay):</strong> <a href="https://www.epfl.ch/labs/biorob/">Laboratory website</a></li>
+  <li data-lang="ja"><strong>Biorobotics Laboratory（EPFL、過去の研究滞在先）：</strong> <a href="https://www.epfl.ch/labs/biorob/">研究室ウェブサイト</a></li>
+</ul>
 
 <h2 data-lang="en">Professional Networks</h2>
 <h2 data-lang="ja">研究者情報</h2>

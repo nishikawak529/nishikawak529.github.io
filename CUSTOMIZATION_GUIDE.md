@@ -14,24 +14,39 @@ Your website includes the following main sections:
 ### 2. Publications
 - **Directory:** `_publications/`
 - Each publication is a separate Markdown file
-- Currently includes 5 sample robotics publications
+- Publications and the CV share a numbered bibliography generated from each entry's metadata.
 - To add a new publication, create a new `.md` file with the following format:
 
 ```markdown
 ---
 title: "Your Paper Title"
 collection: publications
-category: conferences  # or "manuscripts" for journal articles
+category: conferences  # International Conference; use manuscripts for International Journal
 permalink: /publication/YYYY-MM-DD-short-name
-excerpt: 'Brief description of the paper'
 date: YYYY-MM-DD
 venue: 'Conference or Journal Name'
-paperurl: # 'Link to paper PDF'
-citation: 'Full citation format'
+authors:  # All authors in the publisher's order, using initials
+  - K. Nishikawa
+  - D. Kurabayashi
+year: YYYY
+doi: '10.xxxx/example'
+# Add only fields verified with the publisher or official proceedings:
+# volume: '11'
+# issue: '4'
+# pages: '100–108'
+# article_number: '630'
+# conference_location: 'City, Country'
+# conference_dates: 'July 7–10, YYYY'
+# conference_dates_ja: 'YYYY年7月7日–10日'
+# pdfurl: 'https://example.org/paper.pdf'  # An actual PDF, separate from the DOI
+metadata_sources:
+  - https://doi.org/10.xxxx/example
 ---
 
 Additional details about the paper...
 ```
+
+Do not fill unknown fields with guesses. Omit volume, issue, pages, or article number when they do not apply. Preserve existing `permalink` values when updating an entry. `_includes/publication-list.html` sorts entries by `date`, newest first, and restarts numbering for each category. `_includes/publication-citation.html` renders the same metadata on Publications, CV, and the individual detail pages; there is no need to maintain a separate `citation` string. Keep conference presentations of existing journal articles in `_talks/` rather than duplicating them in `_publications/`.
 
 ### 3. Education (CV)
 - **File:** `_pages/cv.md`
