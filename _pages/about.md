@@ -15,6 +15,8 @@ redirect_from:
 <h2 data-lang="en">News</h2>
 <h2 data-lang="ja">ニュース</h2>
 <ul>
+  <li data-lang="en">[Oct. 27, 2026] I presented <a href="{{ '/talks/2026-10-27-dars2026' | relative_url }}">“Reconstructing Self-Organized Phase Relations in Robotic Systems with Winfree-Type Synchronization Control”</a> in a lightning talk and poster presentation at the DARS 2026 Late-Breaking Results &amp; Demo Session (LB1).</li>
+  <li data-lang="ja">[2026年10月27日] <a href="{{ '/talks/2026-10-27-dars2026' | relative_url }}">「Reconstructing Self-Organized Phase Relations in Robotic Systems with Winfree-Type Synchronization Control」</a>について、DARS 2026のレイトブレーキング・リザルト＆デモセッション（LB1）でライトニングトークおよびポスター発表を行いました。</li>
   <li data-lang="en">[Sept. 30, 2026] I presented our RA-L paper, <a href="{{ '/publication/2026-02-27-winfree-model-synchronization-swimming-robot' | relative_url }}">“Winfree-Model-Type Synchronization Control for Swimming Modular Robot Through Physical Interaction,”</a> in a lightning talk and poster presentation at <a href="https://2026.ieee-iros.org/program/contributed_talks/#7b79fb:4902">IROS 2026</a>.</li>
   <li data-lang="ja">[2026年9月30日] RA-L論文<a href="{{ '/publication/2026-02-27-winfree-model-synchronization-swimming-robot' | relative_url }}">「Winfree-Model-Type Synchronization Control for Swimming Modular Robot Through Physical Interaction」</a>について、<a href="https://2026.ieee-iros.org/program/contributed_talks/#7b79fb:4902">IROS 2026</a>でライトニングトークおよびポスター発表を行いました。</li>
   <li data-lang="en">[Sept. 30, 2026] I completed my one-year research stay at the Biorobotics Laboratory, EPFL, on September 30 and have returned to Japan.</li>
