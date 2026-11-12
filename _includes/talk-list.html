@@ -1,0 +1,17 @@
+<div class="publication-bibliography">
+  {% assign talks = site.talks | sort: "date" | reverse %}
+  <ol class="publication-list">
+    {% for talk in talks %}
+      <li>
+        {% include publication-citation.html paper=talk %}
+        <span class="publication-conference">
+          {% if talk.type_ja %}<span data-lang="en">{{ talk.type | escape }}</span><span data-lang="ja">{{ talk.type_ja | escape }}</span>{% else %}{{ talk.type | escape }}{% endif %}, {{ talk.location | escape }},
+          <span data-lang="en">{{ talk.date | date: "%B %-d, %Y" }}</span><span data-lang="ja">{{ talk.date | date: "%Y年%-m月%-d日" }}</span>{% if talk.presentation_id %}, {{ talk.presentation_id | escape }}{% endif %}.
+        </span>
+        {% if talk.award %}
+          <span class="publication-conference"><strong>{% if talk.award_ja %}<span data-lang="en">{{ talk.award | escape }}</span><span data-lang="ja">{{ talk.award_ja | escape }}</span>{% else %}{{ talk.award | escape }}{% endif %}</strong></span>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ol>
+</div>

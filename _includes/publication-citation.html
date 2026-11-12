@@ -1,7 +1,7 @@
 {%- assign paper = include.paper -%}
 <span class="publication-citation">
   {% for author in paper.authors %}{% unless forloop.first %}{% if forloop.last %}{% if forloop.length > 2 %},{% endif %} and {% else %}, {% endif %}{% endunless %}{{ author | escape }}{% endfor %},
-  “{% if include.link_title %}<a href="{{ paper.url | relative_url }}">{{ paper.title | escape }}</a>{% else %}{{ paper.title | escape }}{% endif %},”
+  “{{ paper.title | escape }},”
   <i>{{ paper.venue | escape }}</i>{% if paper.volume %}, Vol. {{ paper.volume | escape }}{% endif %}{% if paper.issue %}, No. {{ paper.issue | escape }}{% endif %}{% if paper.pages %}, pp. {{ paper.pages | escape }}{% endif %}{% if paper.article_number %}, Art. no. {{ paper.article_number | escape }}{% endif %}, {% if paper.year %}{{ paper.year }}{% else %}{{ paper.date | date: "%Y" }}{% endif %}.
 </span>
 {% if paper.conference_location or paper.conference_dates %}
@@ -9,9 +9,11 @@
     {{ paper.conference_location | escape }}{% if paper.conference_location and paper.conference_dates %}, {% endif %}{% if paper.conference_dates_ja %}<span data-lang="en">{{ paper.conference_dates | escape }}</span><span data-lang="ja">{{ paper.conference_dates_ja | escape }}</span>{% else %}{{ paper.conference_dates | escape }}{% endif %}.
   </span>
 {% endif %}
+{% if paper.doi or paper.pdfurl or paper.slidesurl or paper.bibtexurl %}
 <span class="publication-links">
   {% if paper.doi %}<a href="https://doi.org/{{ paper.doi | escape }}">DOI:{{ paper.doi | escape }}</a>{% endif %}
   {% if paper.pdfurl %}{% if paper.doi %} · {% endif %}<a href="{% if paper.pdfurl contains '://' %}{{ paper.pdfurl | escape }}{% else %}{{ paper.pdfurl | relative_url }}{% endif %}">PDF</a>{% endif %}
   {% if paper.slidesurl %} · <a href="{% if paper.slidesurl contains '://' %}{{ paper.slidesurl | escape }}{% else %}{{ paper.slidesurl | relative_url }}{% endif %}"><span data-lang="en">Slides</span><span data-lang="ja">スライド</span></a>{% endif %}
   {% if paper.bibtexurl %} · <a href="{% if paper.bibtexurl contains '://' %}{{ paper.bibtexurl | escape }}{% else %}{{ paper.bibtexurl | relative_url }}{% endif %}">BibTeX</a>{% endif %}
 </span>
+{% endif %}

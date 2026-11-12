@@ -48,6 +48,8 @@ Additional details about the paper...
 
 Do not fill unknown fields with guesses. Omit volume, issue, pages, or article number when they do not apply. Preserve existing `permalink` values when updating an entry. `_includes/publication-list.html` sorts entries by `date`, newest first, and restarts numbering for each category. `_includes/publication-citation.html` renders the same metadata on Publications, CV, and the individual detail pages; there is no need to maintain a separate `citation` string. Keep conference presentations of existing journal articles in `_talks/` rather than duplicating them in `_publications/`.
 
+Titles are plain text; DOI, PDF, slides, and BibTeX links are shown separately. Talks and the CV share `_includes/talk-list.html`, which uses the same numbered bibliography style and citation renderer, sorted newest first. Each `_talks/` entry supplies `authors` in presentation order, `type`, `type_ja`, `venue`, `date`, and `location`. Preserve known presentation numbers in `presentation_id`, page ranges in `pages`, and award notices in `award` and `award_ja`.
+
 ### 3. Education (CV)
 - **File:** `_pages/cv.md`
 - Contains education history, research experience, skills, and awards

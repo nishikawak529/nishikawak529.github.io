@@ -63,15 +63,4 @@ redirect_from:
 
 <h2 data-lang="en">Talks</h2>
 <h2 data-lang="ja">学会発表</h2>
-<ul>
-  {% assign talks = site.talks | sort: 'date' | reverse %}
-  {% for post in talks %}
-    <li>
-      <strong>{{ post.title }}</strong><br>
-      <span class="page__meta">
-        <span data-lang="en">{% if post.type %}{{ post.type }}, {% endif %}<i>{{ post.venue }}</i>, {{ post.location }}, {{ post.date | date: "%b %Y" }}.</span>
-        <span data-lang="ja">{% if post.type_ja %}{{ post.type_ja }}、{% elsif post.type == 'Poster presentation' %}ポスター発表、{% elsif post.type == 'Oral presentation' %}口頭発表、{% elsif post.type %}{{ post.type }}、{% endif %}<i>{{ post.venue }}</i>、{{ post.location }}、{{ post.date | date: "%Y年%m月" }}。</span>
-      </span>
-    </li>
-  {% endfor %}
-</ul>
+{% include talk-list.html %}

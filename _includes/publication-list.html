@@ -9,7 +9,7 @@
     </{{ heading }}>
     <ol class="publication-list">
       {% for paper in papers %}
-        <li>{% include publication-citation.html paper=paper link_title=true %}</li>
+        <li>{% include publication-citation.html paper=paper %}</li>
       {% endfor %}
     </ol>
   {% endif %}
