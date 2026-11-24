@@ -8,6 +8,9 @@
           {% if talk.type_ja %}<span data-lang="en">{{ talk.type | escape }}</span><span data-lang="ja">{{ talk.type_ja | escape }}</span>{% else %}{{ talk.type | escape }}{% endif %}, {{ talk.location | escape }},
           <span data-lang="en">{{ talk.date | date: "%B %-d, %Y" }}</span><span data-lang="ja">{{ talk.date | date: "%Y年%-m月%-d日" }}</span>{% if talk.presentation_id %}, {{ talk.presentation_id | escape }}{% endif %}.
         </span>
+        {% if talk.presenter %}
+          <span class="publication-conference"><span data-lang="en">Presenter: {{ talk.presenter | escape }}</span><span data-lang="ja">発表者：{{ talk.presenter_ja | default: talk.presenter | escape }}</span></span>
+        {% endif %}
         {% if talk.award %}
           <span class="publication-conference"><strong>{% if talk.award_ja %}<span data-lang="en">{{ talk.award | escape }}</span><span data-lang="ja">{{ talk.award_ja | escape }}</span>{% else %}{{ talk.award | escape }}{% endif %}</strong></span>
         {% endif %}

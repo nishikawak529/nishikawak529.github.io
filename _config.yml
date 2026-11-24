@@ -25,6 +25,7 @@ author:
   # Biographic information
   avatar           : "profile.jpg"
   name             : "Kohei Nishikawa"
+  citation_name    : "K. Nishikawa"
   pronouns         : # example: "she/her"  
   bio              : "PhD Student"
   bio_ja           : "博士課程学生"
@@ -91,10 +92,10 @@ publication_category:
     title: 'Books'
   manuscripts:
     title: 'International Journal'
-    title_ja: 'International Journal（国際学術誌）'
+    title_ja: '国際学術論文'
   conferences:
     title: 'International Conference'
-    title_ja: 'International Conference（国際会議）'
+    title_ja: '国際会議'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews

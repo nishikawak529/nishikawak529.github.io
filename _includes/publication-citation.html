@@ -1,6 +1,20 @@
 {%- assign paper = include.paper -%}
 <span class="publication-citation">
-  {% for author in paper.authors %}{% unless forloop.first %}{% if forloop.last %}{% if forloop.length > 2 %},{% endif %} and {% else %}, {% endif %}{% endunless %}{{ author | escape }}{% endfor %},
+  {%- for author in paper.authors -%}
+    {%- unless forloop.first -%}
+      {%- if forloop.last -%}
+        {%- if forloop.length > 2 -%},{%- endif -%}
+        {{- " and " -}}
+      {%- else -%}
+        {{- ", " -}}
+      {%- endif -%}
+    {%- endunless -%}
+    {%- if author == site.author.citation_name -%}
+      <span class="publication-author-self">{{ author | escape }}</span>
+    {%- else -%}
+      {{ author | escape }}
+    {%- endif -%}
+  {%- endfor -%},
   “{{ paper.title | escape }},”
   <i>{{ paper.venue | escape }}</i>{% if paper.volume %}, Vol. {{ paper.volume | escape }}{% endif %}{% if paper.issue %}, No. {{ paper.issue | escape }}{% endif %}{% if paper.pages %}, pp. {{ paper.pages | escape }}{% endif %}{% if paper.article_number %}, Art. no. {{ paper.article_number | escape }}{% endif %}, {% if paper.year %}{{ paper.year }}{% else %}{{ paper.date | date: "%Y" }}{% endif %}.
 </span>
