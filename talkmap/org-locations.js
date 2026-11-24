@@ -33,5 +33,10 @@ var addressPoints = [
     "\u591a\u7d30\u80de\u30dc\u30eb\u30dc\u30b7\u30f3\u85fb\u985e\u306e\u30e2\u30c7\u30eb\u5316\u306b\u3088\u308b\u8eab\u4f53\u69cb\u9020\u306b\u5bfe\u3057\u3066\u30ed\u30d0\u30b9\u30c8\u306a\u7fa4\u4f53\u5236\u5fa1<br />JSME Conference on Robotics and Mechatronics (ROBOMECH 2022); Sapporo, Japan",
     43.061936,
     141.3542924
+  ],
+  [
+    "\u53d7\u52d5\u95a2\u7bc0\u30d1\u30c9\u30eb\u306b\u3088\u308b\u904a\u6cf3\u7279\u6027\u89e3\u6790\u3068\u8d70\u5149\u6027\u6c34\u4e2d\u30e2\u30b8\u30e5\u30e9\u30fc\u30ed\u30dc\u30c3\u30c8\u306e\u30d1\u30e9\u30e1\u30fc\u30bf\u30fc\u8a2d\u8a08<br />42nd Annual Conference of the Robotics Society of Japan (RSJ 2024); Osaka, Japan",
+    34.6937569,
+    135.5014539
   ]
 ];
